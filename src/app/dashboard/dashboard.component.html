@@ -1,6 +1,28 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
+  <h1 class="mat-h1">Trending</h1>
+
+  <mat-chip-list class="">
+    <mat-chip *ngFor="let chip of availableColors" selected="true" [color]="chip.color">
+      {{chip.name}}
+    </mat-chip>
+  </mat-chip-list>
+
+  <div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="5%" fxLayoutAlign="center">
+  <div fxFlex="20%" class="flexImage">
+    <img mat-card-image class="img" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/8V46UZCS0V.jpg">
+  </div>
+  <div fxFlex="20%" class="flexImage">
+    <img mat-card-image class="img" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/LTLE4QGRVQ.jpg">
+  </div>
+  <div fxFlex="20%" class="flexImage">
+    <img mat-card-image class="img" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/R926LU1YEA.jpg">
+  </div>
+  <div fxFlex="20%" class="flexImage">
+    <img mat-card-image class="img" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/U9PP3KXXY2.jpg">
+  </div>
+</div>
+
+  <!-- <mat-grid-list cols="2" rowHeight="350px">
     <mat-grid-tile *ngFor="let card of cards" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">
         <mat-card-header>
@@ -20,5 +42,5 @@
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>
-  </mat-grid-list>
+  </mat-grid-list> -->
 </div>

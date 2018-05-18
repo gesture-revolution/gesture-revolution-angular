@@ -14,6 +14,8 @@ import { AuthInterceptor } from './auth/auth.interceptors';
 import { appRoutes } from './app.routes';
 import { AppComponent } from './app.component';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { AppComponent } from './app.component';
     LayoutModule,
     OverlayModule,
     AlertsModule.forRoot(),
-    SidenavModule
+    SidenavModule,
+    FlexLayoutModule
   ],
   providers: [AuthGuard, {
     provide: HTTP_INTERCEPTORS,

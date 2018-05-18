@@ -16,7 +16,8 @@ import {
   MatSelectModule,
   MatSidenavModule,
   MatSnackBarModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatChipsModule
 } from '@angular/material';
 
 
@@ -26,13 +27,13 @@ import {
     MatAutocompleteModule, MatButtonModule, MatCardModule, MatCheckboxModule,
     MatCommonModule, MatDialogModule, MatFormFieldModule, MatGridListModule,
     MatIconModule, MatInputModule, MatMenuModule, MatProgressBarModule,
-    MatSelectModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule
+    MatSelectModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule, MatChipsModule
   ],
   exports: [
     MatAutocompleteModule, MatButtonModule, MatCardModule, MatCheckboxModule,
     MatCommonModule, MatDialogModule, MatFormFieldModule, MatGridListModule,
     MatIconModule, MatInputModule, MatMenuModule, MatProgressBarModule,
-    MatSelectModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule
+    MatSelectModule, MatSidenavModule, MatSnackBarModule, MatToolbarModule, MatChipsModule
   ]
 })
 export class MaterialImportModule {

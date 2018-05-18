@@ -19,3 +19,12 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+mat-chip {
+  max-width: 200px;
+}
+
+.flexImage img {
+  height: 20%;
+  overflow: hidden;
+}
