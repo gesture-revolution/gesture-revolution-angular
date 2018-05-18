@@ -1,7 +1,7 @@
 gesture-revolution
 ====================
 
-Simple scaffold generated with `@angular/cli` then implemented manually.
+Angular web frontend.
 
 ## Update version
 
