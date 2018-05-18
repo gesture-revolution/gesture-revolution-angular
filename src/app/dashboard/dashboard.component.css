@@ -25,6 +25,5 @@ mat-chip {
 }
 
 .flexImage img {
-  height: 20%;
-  overflow: hidden;
+  width: 100%;
 }
